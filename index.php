@@ -39,6 +39,30 @@ $albums = json_decode($albumsString, true);
                 </div>
             <?php } ?>
         </div>
+        <h1 class="text-white mt-4 mb-3 text-center border-top pt-3">Add an Album</h1>
+        <form action="server.php" method="POST" class="bg-light rounded-4 p-4 w-75 mx-auto">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Title</span>
+                <input type="text" class="form-control" name="new-title" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Artist</span>
+                <input type="text" class="form-control" name="new-artist" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Year</span>
+                <input type="text" class="form-control" name="new-year" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Genre</span>
+                <input type="text" class="form-control" name="new-genre" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Cover</span>
+                <input type="text" class="form-control" name="new-cover" required>
+            </div>
+            <button class="btn btn-outline-success w-100">Add</button>
+        </form>
     </div>
 </body>
 

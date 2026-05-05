@@ -1,44 +1,51 @@
 [
   {
-    "cover": "imgs/Michael_Jackson_-_Thriller.png",
+    "cover": "imgs\/Michael_Jackson_-_Thriller.png",
     "title": "Thriller",
     "artist": "Michael Jackson",
     "year": 1982,
     "genre": "Pop"
   },
   {
-    "cover": "imgs/KendrickGKMC.jpg",
+    "cover": "imgs\/KendrickGKMC.jpg",
     "title": "Good Kid, m.A.A.d city",
     "artist": "Kendrick Lamar",
     "year": 2012,
     "genre": "Hip Hop"
   },
   {
-    "cover": "imgs/The_Weeknd_-_Starboy.png",
+    "cover": "imgs\/The_Weeknd_-_Starboy.png",
     "title": "Starboy",
     "artist": "The Weeknd",
     "year": 2016,
-    "genre": "R&B / Pop"
+    "genre": "R&B \/ Pop"
   },
   {
-    "cover": "imgs/ACDC_Back_in_Black.png",
+    "cover": "imgs\/ACDC_Back_in_Black.png",
     "title": "Back in Black",
-    "artist": "AC/DC",
+    "artist": "AC\/DC",
     "year": 1980,
     "genre": "Hard Rock"
   },
   {
-    "cover": "imgs/Graduation_(album).jpg",
+    "cover": "imgs\/Graduation_(album).jpg",
     "title": "Graduation",
     "artist": "Kanye West",
     "year": 2007,
     "genre": "Hip Hop"
   },
   {
-    "cover": "imgs/Gorillaz_Demon_Days.png",
+    "cover": "imgs\/Gorillaz_Demon_Days.png",
     "title": "Demon Days",
     "artist": "Gorillaz",
     "year": 2005,
     "genre": "Alternative Rock"
+  },
+  {
+    "cover": "https:\/\/www.shutterstock.com\/shutterstock\/photos\/2286554497\/display_1500\/stock-photo-random-pictures-cute-and-funny-2286554497.jpg",
+    "title": "ciao",
+    "artist": "manu",
+    "year": "2026",
+    "genre": "lol"
   }
 ]
