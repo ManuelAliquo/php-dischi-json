@@ -1,7 +1,6 @@
 <?php
-$disksString = file_get_contents("disks.json");
-
-$disks = json_decode($disksString, true);
+$albumsString = file_get_contents("albums.json");
+$albums = json_decode($albumsString, true);
 ?>
 
 <!DOCTYPE html>
@@ -10,21 +9,37 @@ $disks = json_decode($disksString, true);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpotyPHPfy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/PHPfy.png">
+    <title>PHPify</title>
 </head>
 
-<body>
-
-    <?php
-    foreach ($disks as $disk) {
-        echo "<ul>";
-        foreach ($disk as $key => $value) {
-            echo "<li>$value</li>";
-        };
-        echo "</ul>";
-    }
-    ?>
-
+<body class="bg-dark">
+    <div class="container my-5">
+        <header class="d-flex align-items-center gap-3 mb-5 bg-light rounded-5 ps-4">
+            <div class="img-container"><img class="img-fluid" src="./imgs/phpfy.png" alt="logo"></div>
+            <h1>PHPfy</h1>
+        </header>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+            <?php foreach ($albums as $album) { ?>
+                <div class="col">
+                    <div class="card h-100 text-center border-0">
+                        <img src="<?= $album["cover"] ?>" class="card-img-top" alt="<?= $album["title"] ?> cover">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $album["title"] ?></h5>
+                            <div class="card-text my-2"><?= $album["artist"] ?></div>
+                            <div class="card-text text-muted">
+                                <small><?= $album["year"] ?> • <?= $album["genre"] ?></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
 </body>
 
 </html>

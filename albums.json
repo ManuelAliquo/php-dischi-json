@@ -1,43 +1,43 @@
 [
   {
+    "cover": "imgs/Michael_Jackson_-_Thriller.png",
     "title": "Thriller",
     "artist": "Michael Jackson",
-    "cover": "imgs/Michael_Jackson_-_Thriller.png",
     "year": 1982,
     "genre": "Pop"
   },
   {
+    "cover": "imgs/KendrickGKMC.jpg",
     "title": "Good Kid, m.A.A.d city",
     "artist": "Kendrick Lamar",
-    "cover": "imgs/KendrickGKMC.jpg",
     "year": 2012,
     "genre": "Hip Hop"
   },
   {
+    "cover": "imgs/The_Weeknd_-_Starboy.png",
     "title": "Starboy",
     "artist": "The Weeknd",
-    "cover": "imgs/The_Weeknd_-_Starboy.png",
     "year": 2016,
     "genre": "R&B / Pop"
   },
   {
+    "cover": "imgs/ACDC_Back_in_Black.png",
     "title": "Back in Black",
     "artist": "AC/DC",
-    "cover": "imgs/ACDC_Back_in_Black.png",
     "year": 1980,
     "genre": "Hard Rock"
   },
   {
+    "cover": "imgs/Graduation_(album).jpg",
     "title": "Graduation",
     "artist": "Kanye West",
-    "cover": "imgs/Graduation_(album).jpg",
     "year": 2007,
     "genre": "Hip Hop"
   },
   {
+    "cover": "imgs/Gorillaz_Demon_Days.png",
     "title": "Demon Days",
     "artist": "Gorillaz",
-    "cover": "imgs/Gorillaz_Demon_Days.png",
     "year": 2005,
     "genre": "Alternative Rock"
   }
