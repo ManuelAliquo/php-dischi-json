@@ -2,42 +2,42 @@
   {
     "title": "Thriller",
     "artist": "Michael Jackson",
-    "cover": "https://picsum.photos/300/300?random=1",
+    "cover": "imgs/Michael_Jackson_-_Thriller.png",
     "year": 1982,
     "genre": "Pop"
   },
   {
     "title": "Good Kid, m.A.A.d city",
     "artist": "Kendrick Lamar",
-    "cover": "https://picsum.photos/300/300?random=6",
+    "cover": "imgs/KendrickGKMC.jpg",
     "year": 2012,
     "genre": "Hip Hop"
   },
   {
     "title": "Starboy",
     "artist": "The Weeknd",
-    "cover": "https://picsum.photos/300/300?random=2",
+    "cover": "imgs/The_Weeknd_-_Starboy.png",
     "year": 2016,
     "genre": "R&B / Pop"
   },
   {
     "title": "Back in Black",
     "artist": "AC/DC",
-    "cover": "https://picsum.photos/300/300?random=3",
+    "cover": "imgs/ACDC_Back_in_Black.png",
     "year": 1980,
     "genre": "Hard Rock"
   },
   {
     "title": "Graduation",
     "artist": "Kanye West",
-    "cover": "https://picsum.photos/300/300?random=4",
+    "cover": "imgs/Graduation_(album).jpg",
     "year": 2007,
     "genre": "Hip Hop"
   },
   {
     "title": "Demon Days",
     "artist": "Gorillaz",
-    "cover": "https://picsum.photos/300/300?random=5",
+    "cover": "imgs/Gorillaz_Demon_Days.png",
     "year": 2005,
     "genre": "Alternative Rock"
   }
